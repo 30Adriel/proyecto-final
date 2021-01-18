@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TiendaOnlineAndahuaylas</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="tienda electronica , tienda online Apurimac , tienda online Andahuylas, venta de equipos electronica Andahuylas" />
+
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="css/EstilosSlider.css" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="w3layouts-main">
+        <section class="w3l-error-9">
+            <div class="error-page">
+                <div class="wrapper-full">
+                    <div class="main-content">
+                        <h1>VENTA DE ELECTRONICOS Y ENTRE OTROS </h1>
+                        <h1>HORARIO DE ATENCION
+                            <BR> en Nuestra Tienda las 24 Horas </h1>
+
+                        <h5> </h5>
+                        <p>Tienda de Inicio de Sesión.</p>
+                        <!-- buttons -->
+                        <div class="buttons">
+                            <a href="FormularioDeRegistroLogin.php" class="btn brk-btn-bg brk-btn">
+                                INICIAR SESION
+                            </a>
+                            <a href="RegistroUsuario.php" class="btn brk-btn">
+                                REGISTRARSE 
+                        </div>
+
+
+                        <!--PROGRAMACION DEL RELOJ -->
+
+
+                        <div class="bottom-header">
+
+                            <color=#000000>
+                                <script language="JavaScript">
+                                    function fecha() {
+                                        fecha = new Date()
+                                        mes = fecha.getMonth()
+                                        diaMes = fecha.getDate()
+                                        diaSemana = fecha.getDay()
+                                        anio = fecha.getFullYear()
+                                        dias = new Array('Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado')
+                                        meses = new Array('Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre')
+                                        document.write('<span id="fecha">')
+                                        document.write(dias[diaSemana] + ", " + diaMes + " de " + meses[mes] + " de " + anio)
+                                        document.write('</span>')
+                                    }
+                                </script>
+                                <style type="text/css">
+                                    <!-- #fecha {
+                                        font-family: Tahoma, Verdana, Arial;
+                                        font-size: 40px;
+                                        color: rgb(201, 198, 0);
+                                        background: none;
+                                        border: orchid;
+                                        padding-top: 14em;
+                                    }
+                                    
+                                    -->
+                                </style>
+                                <script language="JavaScript">
+                                    function hora() {
+                                        var fecha = new Date()
+                                        var hora = fecha.getHours()
+                                        var minuto = fecha.getMinutes()
+                                        var segundo = fecha.getSeconds()
+                                        if (hora < 10) {
+                                            hora = "0" + hora
+                                        }
+                                        if (minuto < 10) {
+                                            minuto = "0" + minuto
+                                        }
+                                        if (segundo < 10) {
+                                            segundo = "0" + segundo
+                                        }
+                                        var horita = hora + ":" + minuto + ":" + segundo
+                                        document.getElementById('hora').firstChild.nodeValue = horita
+                                        tiempo = setTimeout('hora()', 1000)
+                                    }
+
+                                    function inicio() {
+                                        document.write('<span id="hora">')
+                                        document.write('000000</span>')
+                                        hora()
+                                    }
+                                </script>
+                                <style type="text/css">
+                                    <!-- #hora {
+                                        width: 100px;
+                                        font-family: Tahoma, Verdana, Arial;
+                                        font-size: 50px;
+                                        color: rgb(243, 219, 6);
+                                        background: none;
+                                        padding-top: 14em;
+                                    }
+                                    
+                                    -->
+                                </style>
+                                <div align="center">
+                                    <b><script>fecha()</script></b></div>
+                                <div align="center">
+                                    <b><script>inicio()</script></b></div>
+                                </color>
+
+                                <!-- FINDELPROGRAMACIONDELRELOJ-->
+
+
+
+                                <!--  nuestro  copyright -->
+                                <div class="copyrights text-center">
+                                    <p>© 2021TIENDA ONLINE ANDAHUYLAS-APURIMA. Copyright. Este sitio se publica bajo licencia Creative Adrich </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        </div>
+
+        <!-- //main -->
+
+</body>
+
+</html>
