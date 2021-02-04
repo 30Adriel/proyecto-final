@@ -1,0 +1,30 @@
+ @keyframes slideleft {
+     from {
+         background-position: 0%;
+     }
+     to {
+         background-position: 90000%;
+     }
+ }
+ 
+ @-webkit-keyframes slideleft {
+     from {
+         background-position: 0%;
+     }
+     to {
+         background-position: 90000%;
+     }
+ }
+ 
+ .w3layouts-main {
+     background-image: url('../img/bg.jpg');
+     background-repeat: repeat-x;
+     animation: slideleft 20000s infinite linear;
+     -webkit-animation: slideleft 20000s infinite linear;
+     background-size: cover;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+     min-height: 100vh;
+ }
