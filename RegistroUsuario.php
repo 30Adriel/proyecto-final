@@ -35,7 +35,7 @@
          document.location='index.html';}
         else{ alert('Operacion Cancelada');
 		 }</script>");
-		 echo  "<center><h1><font color=#0AA90A>GRACIAS POR REGISTRARTE!! BENVENIDOS </font></h1></center>
+		 echo  "<center><h1><font color=rgb(243, 219, 6)>GRACIAS POR REGISTRARTE!! BENVENIDOS </font></h1></center>
 		 <a href='pagina1.php'><center><h2><font color=#32B4FF>ENTRAR!!</h2></center></a><br>";
     }else{/*<form action="direccion" method="post">*/
         echo'<section class="register">

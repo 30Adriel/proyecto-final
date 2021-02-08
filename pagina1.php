@@ -120,7 +120,7 @@
 						<div class="enlaces-subcategoria">
 							<button class="btn-regresar"><i class="fas fa-arrow-left"></i>Regresar</button>
 							<h3 class="subtitulo">Libros</h3>
-							<a href="Productos.php"> de Aeguedas</a>
+							<a href="Productos.php">de  escritores peruanos</a>
 							<a href="Productos.php">Ciencia Ficcion</a>
 							<a href="Productos.php">Fantasia</a>
 							<a href="Productos.php">ficcion</a>
@@ -729,7 +729,7 @@
 											</ul>
 										</div>
 									</div>
-									<h5><a>NOMBRE COCINA</a></h5>
+									<h5><a> COCINA</a></h5>
 									<div class="paraCarrito">
 										<p><span>S/460</span> <i class="PrecioProducto">S/450</i></p>
 										<form action="#" method="post">
@@ -1408,7 +1408,7 @@
 					</li>
 				</ul>
 			</div>
-            <!-- script para slider de AnimarImagenes 5/08/2020  -->
+            <!-- script para slider de AnimarImagenes  -->
 			<script type="text/javascript">
 					$(window).load(function() {
 						$("#AnimarImagenes").flexisel({
@@ -1445,7 +1445,7 @@
 			<div class="Contactar01 AliniarContacto">
 				<h3>Contactar con administrador</h3>
                 <p>atencion las 24 horas al dia y 7 dias a la semana.</p>
-                <p>©</p>
+                <p>© © 2021 TIENDA ONLINE ANDAHUYLAS-APURIMA Copyright Este sitio se publica bajo licencia Creative Adrich </p>
 			</div>
 			<div class="Contactar01 AliniarContacto1">
 				<form action="#" method="post">
